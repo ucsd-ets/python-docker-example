@@ -1,0 +1,6 @@
+.pytest_cache/
+.devcontainer/
+__pycache__/
+*.egg-info
+*.whl
+dist/
