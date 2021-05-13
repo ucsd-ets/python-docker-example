@@ -1,8 +1,10 @@
 # Python Docker Example
 
-Add all dependencies to requirements.txt
+Dead simple basic Python TDD application skeleton with Docker
 
 ## Customization
+
+Add all dependencies to requirements.txt
 
 Replace all instances of 'pyapp' with your application name
 
