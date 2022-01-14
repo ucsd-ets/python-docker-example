@@ -1,5 +1,7 @@
 .pytest_cache/
 .devcontainer/
+.venv
+.vscode
 __pycache__/
 *.egg-info
 *.whl
