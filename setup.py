@@ -19,7 +19,7 @@ def get_version(rel_path):
         raise RuntimeError("Unable to find version string.")
 
 setup(name='pyapp',
-      version=get_version('app/__init__.py'),
+      version=get_version('pyapp/__init__.py'),
       description='',
       author='',
       author_email='',
