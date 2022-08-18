@@ -12,7 +12,7 @@ Optional: Replace all instances of 'app' with your application name
 
 1. Start the Docker application
 2. Within the container, run `pip install -r requirements.txt`
-3. Run app.hello module with `python -m pyapp`. This will all the code inside `__main__.py`
+3. Run app.hello module with `python -m pyapp`. This will run all the code inside `__main__.py`
 4. Create a new function inside a new file within `pyapp/`
 5. Create a new unit test for your function with a name that follows the `*_test.py` pattern
 6. Run all unit tests locally with `python -m unittest discover tests "*_test.py"`

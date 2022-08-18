@@ -1,6 +1,7 @@
 import re
+from typing import List
 
-def retrieve_digits_as_strings(sentence: str) -> list[str]:
+def retrieve_digits_as_strings(sentence: str) -> List[str]:
     """
     Uses RegEx to find all digits in a string sentence.
 
@@ -17,7 +18,7 @@ def retrieve_digits_as_strings(sentence: str) -> list[str]:
         raise TypeError("sentence argument must be of type <str>")
     return re.findall("\d", sentence)
 
-def strings_list_to_digits_list(strings_list: list[str]) -> list[int]:
+def strings_list_to_digits_list(strings_list: List[str]) -> List[int]:
     """
     Converts a list of digits stored as strings to a list of integers.
 

@@ -1,6 +1,6 @@
 import unittest
 
-from pyapp import hello_world
+from pyapp.hello import hello_world
 
 
 def test_hello_world():

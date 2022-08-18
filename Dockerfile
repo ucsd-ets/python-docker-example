@@ -1,14 +1,14 @@
 FROM python:3.10.1 as base
 
-WORKDIR /app
+WORKDIR /pyapp
 
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
-COPY . /app/
+COPY . /pyapp/
 
 FROM base AS test
 CMD [ "python3", "-m", "unittest", "discover", "tests", "*_test.py"]
 
 FROM test AS build
-CMD ["python3", "-m", "app.hello"]
+CMD ["python3", "-m", "pyapp.hello"]
