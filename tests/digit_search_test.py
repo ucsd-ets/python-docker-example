@@ -1,5 +1,5 @@
 import unittest
-from app import digit_search
+from pyapp import digit_search
 
 class DigitSearch(unittest.TestCase):
     def setUp(self):
